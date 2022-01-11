@@ -71,7 +71,7 @@ def binary_search(arr, low, high, intervalLower, intervalUpper):
 
 def lambda_handler(event, context):
     # TODO implement
-    s3 = boto3.client('s3',aws_access_key_id='AKIAUHFMLI35G75J3TN5',aws_secret_access_key='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')
+    s3 = boto3.client('s3',aws_access_key_id='---',aws_secret_access_key='-----')
     print('Object in bucket')
     original = s3.get_object(
         Bucket='arn:aws:s3:us-east-2:290271741690:accesspoint/myap',

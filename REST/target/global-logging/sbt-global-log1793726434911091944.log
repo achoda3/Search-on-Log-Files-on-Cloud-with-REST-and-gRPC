@@ -1,0 +1,16 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\aryan\Desktop\Studies\CS 441\ClientHTTP\target\scala-2.13\classes ...
+[error] C:\Users\aryan\Desktop\Studies\CS 441\ClientHTTP\src\main\scala\ClientHttp.scala:35:55: type mismatch;
+[error]  found   : String
+[error]  required: scala.concurrent.Future[String]
+[error]     val stringRet : Future[String] = response.toString()
+[error]                                                       ^
+[error] C:\Users\aryan\Desktop\Studies\CS 441\ClientHTTP\src\main\scala\ClientHttp.scala:36:13: not found: value Await
+[error]     println(Await.result(stringRet))
+[error]             ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed Nov 5, 2021 7:30:36 PM
+[debug] > Exec(idea-shell, None, None)

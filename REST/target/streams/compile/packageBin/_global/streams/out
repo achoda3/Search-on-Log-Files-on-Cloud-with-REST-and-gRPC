@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\clienthttp_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\classes\application.conf
+[debug] 	ClientHttp$.class
+[debug] 	  C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\classes\ClientHttp$.class
+[debug] 	ClientHttp.class
+[debug] 	  C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\classes\ClientHttp.class
+[debug] Done packaging.

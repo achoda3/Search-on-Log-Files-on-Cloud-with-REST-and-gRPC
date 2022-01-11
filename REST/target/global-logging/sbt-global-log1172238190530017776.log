@@ -1,0 +1,19 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\test-classes ...
+[info] done compiling
+[info] Test1:
+[info] - should generate a number
+[info] - should generate the invalid time Interval number
+[info] - should generate the valid time Interval number
+[info] - should generate the invalid time Interval number 2
+[info] - should generate the invalid time Interval number 3
+[info] - should generate the valid time Interval number 2
+[info] Run completed in 2 seconds, 607 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed Nov 16, 2021 6:08:45 AM
+[debug] > Exec(idea-shell, None, None)

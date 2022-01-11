@@ -1,0 +1,7 @@
+[debug] > Exec(rn1:1.171:01.171:0:31719:00:13.167, None, None)
+[error] Expected key
+[error] Expected '*'
+[error] Expected 'Zero'
+[error] rn1:1.171:01.171:0:31719:00:13.167
+[error]     ^
+[debug] > Exec(idea-shell, None, None)

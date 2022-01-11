@@ -1,0 +1,32 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 1 products, 1 sources, 7 libraries
+[debug] current source = Set(${BASE}/src/test/scala/Test1.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/test/scala/Test1.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/test/scala/Test1.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Test1)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: Test1
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\test-classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.7
+[debug] [zinc] Running cached compiler 150495f3 for Scala compiler version 2.13.7
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Java\jdk1.8.0_261\jre\classes;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.7\scala-library-2.13.7.jar
+[debug] 	-classpath
+[debug] 	C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\test-classes;C:\Users\aryan\Desktop\Studies\CS 441\HW3PrivateRepo-1\ClientHTTP\target\scala-2.13\classes;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.1\config-1.4.1.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.9\scalactic_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.9\scalatest_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.9\scalatest-featurespec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.7\scala-reflect-2.13.7.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.9\scalatest-core_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.9\scalatest-flatspec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.9\scalatest-freespec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.9\scalatest-funsuite_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.9\scalatest-funspec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.9\scalatest-propspec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.9\scalatest-refspec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.9\scalatest-wordspec_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.9\scalatest-diagrams_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.9\scalatest-matchers-core_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.9\scalatest-shouldmatchers_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.9\scalatest-mustmatchers_2.13-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.9\scalatest-compatible-3.2.9.jar;C:\Users\aryan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.3.0\scala-xml_2.13-1.3.0.jar
+[debug] Scala compilation took 0.5434441 s
+[info] done compiling

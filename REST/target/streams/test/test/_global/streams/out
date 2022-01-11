@@ -1,0 +1,15 @@
+[debug] Running TaskDef(Test1, org.scalatest.tools.Framework$$anon$1@4d05000f, false, [SuiteSelector])
+[info] Test1:
+[info] - should generate a number
+[info] - should generate the invalid time Interval number
+[info] - should generate the valid time Interval number
+[info] - should generate the invalid time Interval number 2
+[info] - should generate the invalid time Interval number 3
+[info] - should generate the valid time Interval number 2
+[info] Run completed in 2 seconds, 607 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	Test1
